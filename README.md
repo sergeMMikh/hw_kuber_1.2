@@ -27,6 +27,18 @@
 2. Использовать image - gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
 3. Подключиться локально к Pod с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
 
+**Решение**
+
+Создал манифест [hello-world-pod.yaml](manifests/hello-world-pod.yaml). Запустил командой `microk8s kubectl apply -f hello-world-pod.yaml`</br>
+Проверил список подов.</br>
+<img src="images/Task_1_1.png" alt="Task_1_1.png" width="300" height="auto"></br>
+Проверил работу nginx через браузер.</br>
+<img src="images/Task_1_2.png" alt="Task_1_2.png" width="500" height="auto"></br>
+
+
+
+
+
 ------
 
 ### Задание 2. Создать Service и подключить его к Pod

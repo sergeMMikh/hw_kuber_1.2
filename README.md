@@ -6,20 +6,6 @@
 
 ------
 
-### Чеклист готовности к домашнему заданию
-
-1. Установленное k8s-решение (например, MicroK8S).
-2. Установленный локальный kubectl.
-3. Редактор YAML-файлов с подключенным Git-репозиторием.
-
-------
-
-### Инструменты и дополнительные материалы, которые пригодятся для выполнения задания
-
-1. Описание [Pod](https://kubernetes.io/docs/concepts/workloads/pods/) и примеры манифестов.
-2. Описание [Service](https://kubernetes.io/docs/concepts/services-networking/service/).
-
-------
 
 ### Задание 1. Создать Pod с именем hello-world
 
@@ -35,10 +21,6 @@
 Проверил работу nginx через браузер.</br>
 <img src="images/Task_1_2.png" alt="Task_1_2.png" width="500" height="auto"></br>
 
-
-
-
-
 ------
 
 ### Задание 2. Создать Service и подключить его к Pod
@@ -53,29 +35,15 @@
 Создал манифест [netology-web.yaml](manifests/netology-web.yaml)</br>
 Проверил список подов.</br>
 <img src="images/Task_2_1.png" alt="Task_2_1.png" width="350" height="auto"></br>
-
-
 Создал манифест [netology-svc.yaml](manifests/netology-svc.yaml)</br>
 Проверил список сервисов.</br>
-<img src="images/Task_2_2.png" alt="Task_2_2.png" width="400" height="auto"></brhell  
+<img src="images/Task_2_2.png" alt="Task_2_2.png" width="400" height="auto"></br>  
 
 Проверил подключение через curl</br>
-<img src="images/Task_2_3.png" alt="Task_2_3.png" width="300" height="auto"></brhell
+<img src="images/Task_2_3.png" alt="Task_2_3.png" width="300" height="auto"></br>
 
 Проверил в браузере</br>
-<img src="images/Task_2_3.png" alt="Task_2_3.png" width="300" height="auto"></brhell
+<img src="images/Task_2_3.png" alt="Task_2_3.png" width="300" height="auto"></br>
 
 ------
 
-### Правила приёма работы
-
-1. Домашняя работа оформляется в своем Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-2. Файл README.md должен содержать скриншоты вывода команд `kubectl get pods`, а также скриншот результата подключения.
-3. Репозиторий должен содержать файлы манифестов и ссылки на них в файле README.md.
-
-------
-
-### Критерии оценки
-Зачёт — выполнены все задания, ответы даны в развернутой форме, приложены соответствующие скриншоты и файлы проекта, в выполненных заданиях нет противоречий и нарушения логики.
-
-На доработку — задание выполнено частично или не выполнено, в логике выполнения заданий есть противоречия, существенные недостатки.

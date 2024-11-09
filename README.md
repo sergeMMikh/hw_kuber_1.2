@@ -57,7 +57,13 @@
 
 Создал манифест [netology-svc.yaml](manifests/netology-svc.yaml)</br>
 Проверил список сервисов.</br>
-<img src="images/Task_2_2.png" alt="Task_2_2.png" width="300" height="auto"></brhell  
+<img src="images/Task_2_2.png" alt="Task_2_2.png" width="400" height="auto"></brhell  
+
+Проверил подключение через curl</br>
+<img src="images/Task_2_3.png" alt="Task_2_3.png" width="300" height="auto"></brhell
+
+Проверил в браузере</br>
+<img src="images/Task_2_3.png" alt="Task_2_3.png" width="300" height="auto"></brhell
 
 ------
 
